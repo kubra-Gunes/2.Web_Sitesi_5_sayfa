@@ -1,0 +1,414 @@
+/*ANA SAYFA-GİRİŞ (HOME) SAYFASI*/
+
+.sayfa1 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(247, 148, 209, 0.956);
+    margin:0 0 0 0;
+
+
+}
+
+.ustMenu {
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(244, 122, 218);
+    display: flex;
+    align-items: center;
+    /*öğeleri yatay eksende ortalar*/
+    justify-content: space-between;
+    /*öğeler arasında eşit mesafe bırakır*/
+    position: fixed;
+
+}
+
+.ustMenu #logo {
+    width: 86px;
+    height: 86px;
+    border-radius: 43px;
+    /* Daire yapar */
+}
+
+.ustMenu .navBar a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: rgb(52, 51, 50);
+    font-weight: bolder;
+    font-size: large;
+}
+
+.ustMenu .navBar a:hover {
+    color: rgb(200, 5, 161);
+}
+
+.ustMenu .icon button {
+    margin-right: 10px;
+    background-color: rgba(228, 138, 230, 0.748);
+    cursor: pointer;
+}
+
+.anaSayfa {
+    display: flex;
+    flex-direction: row; /*yatay sıralama*/
+    justify-content: space-between;/*sağ ekran ve sol ekran arasında boşluk bırakıyorum*/
+    align-items: center;
+    margin-top: 120px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.anaSayfa #solEkran {
+    margin-bottom: 46px;
+}
+
+.anaSayfa #solEkran h1 {
+    font-size: 4rem;
+    margin-bottom: -35px;
+    font-weight: bolder;
+    color: #d9049d;
+}
+
+.anaSayfa #solEkran h2 {
+    font-size: 3rem;
+    font-weight: bolder;
+    color: #1e111a;
+}
+
+.anaSayfa #solEkran p {
+    font-size: 1rem;
+    font-weight: bolder;
+    color: #323032;
+}
+
+.anaSayfa #sagEkran img {
+    width: 540px;
+    height: 470px;
+    margin-left: 30px;
+    margin-right: 48px;
+    margin-bottom: 40px;
+}
+
+/*****************/
+
+/*ABOUT US SAYFASI*/
+
+.sayfa2 #aboutUs h1 {
+    background-color: rgb(243, 236, 162);
+    text-align: center;
+    display: center;
+    color: rgba(242, 127, 3, 0.803);
+    font-size: 50px;
+    font-weight: bolder;
+    padding-top: 5rem;
+    margin-bottom: 0;
+}
+
+.sayfa2_1 {
+    background-color: rgb(243, 236, 162);
+    width: 100%;
+    height: 100;
+    margin-top: 0;
+    display: flex;
+    flex-direction: row; /*yatay sıralama*/
+    justify-content: space-between;/*sağ ekran ve sol ekran arasında boşluk bırakıyorum*/
+    align-items: center;
+    padding-top: 98px;
+    padding-bottom: 165px;
+}
+
+.sayfa2_1 #solEkran2 {
+    margin-left: 95px;
+}
+
+.sayfa2_1 #sağEkran2 {
+    margin-right: 2.5rem;
+    margin-top: 45px;
+}
+
+
+.sayfa2_1#sağEkran2 h1 {
+    text-align: center;
+    color: rgba(177, 110, 39, 0.803);
+    font-size: 45px;
+    font-weight: 1700;
+}
+
+.sayfa2_1 #sağEkran2 p {
+
+    color: rgb(121, 61, 1);
+    font-size: 20px;
+    font-weight: 1700;
+
+}
+
+/*****************/
+
+/*PRODUCTS SAYFASINI YAPIYORUM*/
+
+.sayfa3 #products h1 {
+    background-color: rgb(163, 241, 168);
+    text-align: center;
+    display: center;
+    color: rgba(9, 101, 5, 0.614);
+    font-size: 50px;
+    font-weight: bolder;
+    padding-top: 5rem;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.sayfa3_1 {
+    background-color: rgb(163, 241, 168);
+    width: 100%;
+    height: 100;
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    /*yatay sıralama*/
+    justify-content: space-between;
+    /*bloglar arasında boşluk bırakıyorum*/
+    align-items: center;
+    padding-top: 98px;
+    padding-left: 2rem;
+    padding-bottom: 165px;
+    padding-top: 4rem;
+    margin-top: 0;
+
+}
+.alisverisIslemleri button{
+    z-index:1;
+   margin-left:-5px;
+   cursor: pointer;
+   background-color: rgb(4, 92, 0);
+   color: antiquewhite;
+   height: 35px;
+   width: 65px;
+   margin-top: 20px;
+   margin-right: 12px;
+}
+.alisverisIslemleri button:hover{
+    transform: scale(1.1);/* öğenin boyutunu değiştirmek için kullanılır.*/
+}
+
+
+.sayfa3_1 img {
+    width: 190px;
+    height: 240px;
+   }
+
+.sayfa3_1 img:hover {
+    transform: scale(1.1);/* öğenin boyutunu değiştirmek için kullanılır.*/
+    cursor: pointer;
+    }
+
+
+.sayfa3_1 #productButton button {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgb(79, 162, 75);
+    font-weight: bolder;
+    cursor: pointer;
+    margin-right: 1.6rem;
+    margin-top: -8rem;
+}
+
+.sayfa3_1 #productButton button:hover {
+     transform: scale(1.1);/* öğenin boyutunu değiştirmek için kullanılır.*/
+    cursor: pointer;
+   
+}
+
+
+.sayfa3_1 #product1 {
+    padding-left: 2.3rem;
+    width: 230px;
+    height: 500px;
+    background-color: rgba(134, 197, 138, 0.704);
+}
+
+.sayfa3_1 #product2 {
+    padding-left: 2.3rem;
+    width: 230px;
+    height: 500px;
+    background-color: rgba(134, 197, 138, 0.704);
+}
+
+.sayfa3_1 #product3 {
+    padding-left: 2.3rem;
+    width: 230px;
+    height: 500px;
+    background-color: rgba(134, 197, 138, 0.704);
+}
+
+.sayfa3_1 #product4 {
+    padding-left: 2.3rem;
+    width: 230px;
+    height:500px;
+    background-color: rgba(134, 197, 138, 0.704);
+}
+
+.sayfa3_1 #product5 {
+    padding-left: 2.3rem;
+    width: 230px;
+    height:500px;
+    background-color: rgba(134, 197, 138, 0.704);
+}
+.sayfa3_1 h2{
+    display:inline;
+}
+
+
+/*****************/
+
+/*BLOGS SAYFASI*/
+
+
+.sayfa4 #blogs h1 {
+    background-color: rgb(140, 205, 244);
+    text-align: center;
+    display: center;
+    color: rgba(3, 15, 242, 0.614);
+    font-size: 50px;
+    font-weight: bolder;
+    padding-top: 5rem;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.sayfa4_1 {
+    background-color: rgb(140, 205, 244);
+    width: 100%;
+    height: 100;
+    margin-top: 0;
+    display: flex;
+    flex-direction: row; /*yatay sıralama*/
+    justify-content: space-between;/*bloglar arasında boşluk bırakıyorum*/
+    align-items: center;
+    padding-top: 98px;
+    padding-bottom: 165px;
+    padding-top: 4rem;
+    margin-top: 0;
+}
+
+
+.sayfa4_1 img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.sayfa4_1 #blogButton button {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgb(75, 131, 162);
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.sayfa4_1 #blog1,#blog2,#blog3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(79, 180, 235, 0.203);
+    height: 500px;
+    padding-top: 56px;
+}
+
+.sayfa4_1 #blog1 p,#blog2 p,#blog3 p {
+    color: #323032;
+    margin-top: 7px;
+}
+
+.sayfa4_1 #blog1 h2,#blog2 h2,#blog3 h2 {
+    cursor: pointer;
+}
+
+.sayfa4_1 #blog1 h4,#blog2 h4,#blog3 h4 {
+    margin-top: -10px;
+
+
+}
+
+.sayfa4_1 #blog1 button,#blog2 button,#blog3 button {
+    background-color: #1e111a;
+    color: aliceblue;
+    width: 150px;
+    height: 50px;
+    border-radius: 55%;
+    cursor: pointer;
+}
+/******************/
+
+.sayfa5 #contact h1 {
+    background-color: rgb(218, 124, 93);
+    text-align: center;
+    display: center;
+    color: rgba(154, 4, 4, 0.803);
+    font-size: 50px;
+    font-weight: bolder;
+    padding-top: 5rem;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.sayfa5_1 {
+    background-color: rgb(218, 124, 93);
+    width: 100%;
+    height: 100;
+    margin-top: 0;
+    display: flex;
+    flex-direction: row; /*yatay sıralama*/
+    justify-content: space-between;/*sağ ekran ve sol ekran arasında boşluk bırakıyorum*/
+    align-items: center;
+    padding-top: 98px;
+    padding-bottom: 165px;
+}
+
+ #solEkran5 iframe{
+    width: 550px;
+    height: 350px;
+    margin-left:3.5rem;
+
+}
+#sagEkran5{
+    width: 350px;
+    height: 350px;
+    background-color: rgba(239, 7, 7, 0.485);
+    display: flex;
+    flex-direction: column;/*dikey sıralama*/
+    justify-content: center;/*dikey ortalama*/
+    align-items: center;
+    margin-right:5.5rem;
+
+}
+
+#sagEkran5 input{
+    margin-top: 15px;
+    background-color: #7e3a3aeb;
+    height:35px;
+    width: 300px;
+    }
+
+#sagEkran5 #girisButonu{
+    height:35px;
+    width: 95px;
+    background-color:  #7e3a3aeb;
+    cursor: pointer;
+    }
+
+    #sagEkran5 .sosyalMedyaIconlari {
+        margin-top: 15px;
+        display:flex;
+         flex-direction:row;/*yatay sıralama*/
+         justify-content:space-between;
+     }
+     
+     #sagEkran5 .sosyalMedyaIconlari button{
+        margin-left: 1.8rem;
+        cursor: pointer;
+      
+      }
+    
